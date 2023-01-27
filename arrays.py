@@ -20,4 +20,6 @@ number of dimensions: {}
 ----------
 """.format(arr0D.ndim, arr0D, arr1D.ndim, arr1D, arr2D.ndim, arr2D, arr3D.ndim, arr3D))
 
+arr10D = np.array([[[1 ,3, 4],[4, 5 ,6 ]],[[8, 7, 8],[7, 8 ,9]]], ndmin=10)
 
+print(arr10D, "It has {} dimensions".format(arr10D.ndim))
