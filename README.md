@@ -1,2 +1,2 @@
-# python-learning
+# python-learning-numpy
 numpy
